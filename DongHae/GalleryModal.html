@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="shortcut icon" href="favicon%20copy.ico"/>
+    <link rel="stylesheet" type="text/css" href="stylegallery.css">
+
+</head>
+<body>
+<div class="wrapper"> <!--start wrapper-->
+    <nav>
+        <div class="nav">
+            <a href="Menu.html">Menu</a>
+            <a href="WheretoFindUs.html">Where to Find Us</a>
+            <a href="index.html"><img src="Logo.png" alt="Logo" class="logo"></a>
+            <a href="GalleryModal.html">Gallery</a>
+            <a href="AboutUs.html">About Us</a>
+        </div>
+    </nav>
+    <div class="title">
+        <h2>Gallery</h2>
+    </div>
+    <hr>
+    <div class="imagesrow1"> <!--start images row 1-->
+        <div class="row">
+            <div class="column">
+                <img src="Gallery1.jpg" alt="Sushi" style="width:100%" onclick="openModal();currentSlide(1)"
+                     class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Gallery2.jpg" style="width:100%" onclick="openModal();currentSlide(2)"
+                     class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Gallery3.jpg" style="width:100%" onclick="openModal();currentSlide(3)"
+                     class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Gallery4.jpg" style="width:100%" onclick="openModal();currentSlide(4)"
+                     class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Gallery5.jpg" style="width:100%" onclick="openModal();currentSlide(5)"
+                     class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Gallery6.jpeg" style="width:100%" onclick="openModal();currentSlide(6)"
+                     class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Gallery7.jpeg" style="width:100%" onclick="openModal();currentSlide(7)"
+                     class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Gallery8.jpeg" style="width:100%" onclick="openModal();currentSlide(8)"
+                     class="hover-shadow cursor">
+            </div>
+
+        </div>
+        <div id="myModal1" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 8</div>
+                    <img src="Gallery1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 8</div>
+                    <img src="Gallery2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">3 / 8</div>
+                    <img src="Gallery3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">4 / 8</div>
+                    <img src="Gallery4.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 8</div>
+                    <img src="Gallery5.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">6 / 8</div>
+                    <img src="Gallery6.jpeg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">7 / 8</div>
+                    <img src="Gallery7.jpeg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">8 / 8</div>
+                    <img src="Gallery8.jpeg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="caption-container">
+                    <p id="caption1"></p>
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Gallery1.jpg" style="width:100%" onclick="currentSlide(1)"
+                         alt="Sushi">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Gallery2.jpg" style="width:100%" onclick="currentSlide(2)"
+                         alt="Asian Dish">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Gallery3.jpg" style="width:100%" onclick="currentSlide(3)"
+                         alt="Plate of Dishes">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Gallery4.jpg" style="width:100%" onclick="currentSlide(4)"
+                         alt="Stir Fry">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Gallery5.jpg" style="width:100%" onclick="currentSlide(5)"
+                         alt="Asian Appetizer">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Gallery6.jpeg" style="width:100%" onclick="currentSlide(6)"
+                         alt="Sushi Dish">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Gallery7.jpeg" style="width:100%" onclick="currentSlide(7)"
+                         alt="Sushi Platter">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Gallery8.jpeg" style="width:100%" onclick="currentSlide(8)"
+                         alt="Asian Beer">
+                </div>
+
+            </div>
+        </div> <!--end images row 1-->
+    </div> <!--End wrapper-->
+</div>
+<script>
+    function openModal() {
+        document.getElementById('myModal1').style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById('myModal1').style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+
+</script>
+</div>
+</body>
+</html>

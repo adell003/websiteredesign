@@ -1,0 +1,381 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    /*padding-top: auto;*/
+    width: 1180px;
+    position: relative;
+    margin: 0 auto;
+    /*margin-left: 250px;*/
+}
+
+.nav {
+    width: 1180px;
+    height: 120px;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo {
+    width: 123px;
+    height: 47px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    margin-right: 65px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0 10px 0;
+}
+
+.photo {
+    padding-bottom: 10px;
+}
+
+.list1 {
+    float: left;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.list2 {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    position: center;
+    padding: 10px 0 20px 115px;
+
+}
+
+.list3 {
+    float: right;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 0 10px 0;
+
+}
+
+.appetizers {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0 10px 0;
+}
+
+.menuitems {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 0 10px 0;
+}
+
+.app1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.app2 {
+    width: 450px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.app3 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: right;
+}
+
+.soupandsalad1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.soupandsalad2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.soupandsalad3 {
+    width: 420px;
+    height: 121px;
+    padding: 0 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.hotpots1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.hotpots2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.hotpots3 {
+    width: 420px;
+    height: 121px;
+    padding: 0 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.stirfry1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.stirfry2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.stirfry3 {
+    width: 420px;
+    height: 121px;
+    padding: 0 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.braised1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.braised2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.braised3 {
+    width: 420px;
+    height: 121px;
+    padding: 0 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.riceandnoodles1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.riceandnoodles2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.riceandnoodles3 {
+    width: 420px;
+    height: 121px;
+    padding: 0 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.entree1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.entree2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.entree3 {
+    width: 420px;
+    height: 121px;
+    padding: 0 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.nigri1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.nigri2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.nigri3 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 175px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+}
+.specialrolls1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.specialrolls2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.specialrolls3 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+}
+.sushiplatter1 {
+    width: 334px;
+    height: 121px;
+    padding: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+.sushiplatter2 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.sushiplatter3 {
+    width: 420px;
+    height: 121px;
+    padding: 10px 0 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+}
+
